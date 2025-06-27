@@ -1,5 +1,5 @@
 "use client";
-import { useMiniKit, useAddFrame } from "@coinbase/onchainkit/minikit";
+import { useMiniKit, useAddFrame } from "@coinbase/onchainkit";
 import { Button } from "../ui/Button";
 
 export function AddFrame() {
@@ -17,3 +17,4 @@ export function AddFrame() {
     </Button>
   );
 }
+
